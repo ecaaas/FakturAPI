@@ -8,4 +8,4 @@
 ![DetailPembelian](https://user-images.githubusercontent.com/47271571/54469720-7a2b3d80-47ce-11e9-9a2f-0c1e47dd10ba.png)
 ## Penulis
 
-(http://github.com/ecaaas)***Anisa Nafsah Tiara***
+(http://github.com/ecaaas) ***Anisa Nafsah Tiara***
