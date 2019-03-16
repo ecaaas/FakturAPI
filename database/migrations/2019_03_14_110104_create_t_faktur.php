@@ -15,6 +15,10 @@ class CreateTFaktur extends Migration
     {
         Schema::create('t_faktur', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('nama_barang', 150);
+            $table->integer('harga', false, true)->length(20);
+            $table->integer('qty', false, true)->length(20);
+            $table->integer('total', false, true)->length(20);
             $table->timestamps();
         });
     }

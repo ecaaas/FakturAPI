@@ -14,3 +14,9 @@
 $router->get('/', function () use ($router) {
     return $router->app->version();
 });
+
+$router->get('faktur', 'TFakturController@all');
+$router->get('faktur/{id}', 'TFakturController@detail');
+$router->post('/faktur', 'TFakturController@add');
+$router->post('/faktur/{id}', 'TFakturController@put');
+$router->delete('faktur/{id}', 'TFakturController@remove');
